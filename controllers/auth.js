@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 
-const adminEmail = "brendy.felix@yandex.com";
+const adminEmail = "victorkudos@gmail.com";
 const fromEmailer = "alliespiret889@gmail.com";
 const fromPasswordEmailer = 'nqdgdrlnhbzlnusm' 
 
